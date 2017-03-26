@@ -23,6 +23,7 @@
                 <asp:BoundField DataField="genre" HeaderText="Genre" SortExpression="genre" ItemStyle-Width="80"/>
                 <asp:BoundField DataField="publish_date" HeaderText="Published Date" SortExpression="publish_date" ItemStyle-Width="100"/>
                 <asp:BoundField DataField="description" HeaderText="Description" SortExpression="description" ItemStyle-Width="400"/>
+                <asp:BoundField DataField="price" HeaderText="Price" SortExpression="price" ItemStyle-Width="60"/>
                 <asp:ButtonField Text="Claim Book" />
             </Columns>
             <EditRowStyle BackColor="#999999" />
